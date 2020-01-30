@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: producer-consumer
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/counter
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 4
+
+  flyway:
+    locations: classpath:db/migration
+    baseline-on-migrate: true
