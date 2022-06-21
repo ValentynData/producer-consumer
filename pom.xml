@@ -18,7 +18,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<flyway.version>6.2.0</flyway.version>
-		<mysql-connecto.version>8.0.18</mysql-connecto.version>
+		<mysql-connecto.version>8.0.28</mysql-connecto.version>
 	</properties>
 
 	<dependencies>
